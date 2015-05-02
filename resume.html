@@ -106,7 +106,11 @@
 			}
 		}
 		@media print {
+			html {
+				font-size: 0.86em;
+			}
 			html, body {
+				background: #fff !important;
 				color: #000 !important;
 				box-shadow: none !important;
 				padding: 0;
@@ -116,6 +120,12 @@
 			}
 			li {
 				page-break-inside: avoid;
+			}
+			footer {
+				margin-top: -2em;
+				width: 100%;
+				text-align: right;
+				font-size: 0.5em;
 			}
 		}
 		</style>
@@ -154,10 +164,10 @@
 					<address itemprop="affiliation">Princeton University</address>
 					<div class="skills">Skills:
 						<span>go</span>
+						<span>c++</span>
+						<span>matlab</span>
 						<span>git</span>
 						<span>hdf5</span>
-						<span>matlab</span>
-						<span>c++</span>
 						<span>boost</span>
 						<span>opencv</span>
 						<span>opencl</span>
@@ -181,7 +191,7 @@
 					<div class="period">
 						<time datetime="2009">2009</time> – <time datetime="2010">2010</time>
 					</div>
-					<h3>M.S. Mathematics, Statistics and Economics — speciality in modeling, calculus and environment</h3>
+					<h3>M.S. Mathematics, Statistics and Economics — speciality in Modeling, Computation and Environment</h3>
 					<address itemprop="alumniOf">University of Bordeaux 1, Bordeaux, France</address>
 					<p>In parallel to my last year of study at ENSEIRB-MATMECA.</p>
 				</li>
@@ -189,7 +199,7 @@
 					<div class="period">
 						<time datetime="2007">2007</time> – <time datetime="2010">2010</time>
 					</div>
-					<h3>M.S.Eng. Mechanical and Mathematical Modeling</h3>
+					<h3>M.S.Eng. Mathematical and Mechanical Modeling</h3>
 					<address itemprop="alumniOf">ENSEIRB-MATMECA, Polytechnic Institute of Bordeaux, France</address>
 					<div class="skills">
 						<span>numerical-methods</span>
@@ -220,6 +230,7 @@
 						<span>opengl</span>
 						<span>hdf5</span>
 						<span>matlab</span>
+						<span>couchdb</span>
 					</div>
 					<p>Implement swarming models running on GPUs. Data analysis.</p>
 				</li>
